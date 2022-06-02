@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dalecuerda</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+  <!-- ---------Header --------->
+  <header class="container-fluid">
+    <article class="row">
+      <nav title="navigation" role="navigation" class="menudesktop">
+        <a href="index.html"><img src="img/logo_dc.png" alt="" class="logo"></a>
+        <ul class="lista">
+          <li><a href=""> <img src="img/redes1.png" alt=""> </a></li>
+          <li><a href=""> <img src="img/redes2.png" alt=""> </a></li>
+          <li><a href=""> <img src="img/redes3.png" alt=""> </a></li>
+          <li><a href=""> <img src="img/redes4.png" alt=""> </a></li>
+          <li><a href="catalogo.html">PRODUCTOS</li>
+          <li><a href="">SERVICIO TECNICO</a></li>
+          <li><a href="">OFERTAS</a></li>
+          <li><a href="">CONTACTO</a></li>
+          <li><a href=""> <img src="img/icono1.png" alt=""> </a></li>
+          <li><a href=""> <img src="img/icono2.png" alt=""> </a></li>
+          <li><a href=""> <img src="img/icono3.png" alt=""> </a></li>
+        </ul>
+      </nav>
+    </article>
+  </header>
+
+  <!-- -------------- Breadcrumb----------------------- -->
+  <section class="container">
+    <article class="hilo col-12">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="catalogo.html">Categorias</a></li>
+          <li class="breadcrumb-item"><a href="catalogo.html">Guitarras Eléctricas</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Guitarras Eléctrica Fender</li>
+        </ol>
+      </nav>
+    </article>
+  </section>
+
+  <!-- ---------------------Productos-------------------- -->
+
+
+  <section class="container">
+    <div class="row col-12">
+
+
+      <!-- -------------------------NAV---------------------- -->
+      <div class="barra col-3 mt-2" style="width: 18rem;">
+
+        <h3 class="m-3">Filtro</h3>
+
+        <ul class=" nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Categorias <svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                <path
+                  d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+              </svg></i></a>
+          <li class="ml-3 mt-1">- Eléctricas</li>
+          <li class="ml-3 mt-1">- Acústicas</li>
+          <li class="ml-3 mt-1">- Electroacústicas</li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sub Categorias<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                <path
+                  d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+              </svg></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Marca<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                <path
+                  d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+              </svg></a>
+          <li class="ml-3 mt-1"><input type="checkbox" id="cbox2" value="second_checkbox"> Freeman (20)</li>
+          <li class="ml-3 mt-1"><input type="checkbox" id="cbox2" value="second_checkbox"> Ibañez (15)</li>
+          <li class="ml-3 mt-1"><input type="checkbox" id="cbox2" value="second_checkbox"> Yamaha (10)</li>
+          <li class="ml-3 mt-1"><input type="checkbox" id="cbox2" value="second_checkbox"> Fender (3)</li>
+          <li class="ml-3 mt-1"><input type="checkbox" id="cbox2" value="second_checkbox"> Squier (3)</li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Precio<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                <path
+                  d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+              </svg></a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- ----------------------------------------------- -->
+
+      <!-- ---------------------Detalle producto-------------------------- -->
+
+      <div class="col-6 mt-1" style="width: 18rem;">
+        <img src="img/guitarra_detalle.png" class="card-img-top" alt="...">
+        <img class="zoom col-3 mt-2" src="img/zoom1_128px.jpg" alt="">
+        <img class="zoom col-3 mt-2" src="img/zoom2_128px.jpg" alt="">
+        <img class="zoom col-3 mt-2" src="img/zoom3_128px.jpg" alt="">
+
+      </div>
+
+      <div class=" col-3 mt-2" style="width: 18rem;">
+        <h3 class="m-1">Guitarra Eléctrica Fender</h3>
+        <div class="card-body">
+          <p>Modelo Vintara Stratocaster Gold</p>
+          <h3>$1.150.000</h3>
+          <h4>$1.390.000</h4>
+          <p class="mt-3">Cantidad</p>
+          <select class="form-select pt-1 pb-1" aria-label="Default select example">
+            <option selected>1 </option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+            <option value="3">5</option>
+            <option value="3">6</option>
+            <option value="3">7</option>
+            <option value="3">8</option>
+            <option value="3">9</option>
+            <option value="3">10</option>
+          </select>
+          <button type="button" class="btn btn-outline-danger ml-1 pt-1 pb-1">Stock en Tiendas</button>
+          <article class="valoracion">
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <!--
+                  --><label for="radio1">★</label>
+                <!--
+                  --><input id="radio2" type="radio" name="estrellas" value="4">
+                <!--
+                  --><label for="radio2">★</label>
+                <!--
+                  --><input id="radio3" type="radio" name="estrellas" value="3">
+                <!--
+                  --><label for="radio3">★</label>
+                <!--
+                  --><input id="radio4" type="radio" name="estrellas" value="2">
+                <!--
+                  --><label for="radio4">★</label>
+                <!--
+                  --><input id="radio5" type="radio" name="estrellas" value="1">
+                <!--
+                  --><label for="radio5">★</label>
+              </p>
+            </form>
+          </article>
+
+          <article class="row">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn-vermas mr-2">Añadir al carro</button>
+              <button type="button" class="btn-vermas">Comprar</button>
+            </div>
+          </article>
+
+          <article class="row mt-4">
+            <article>
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="24" fill="currentColor" class="bi bi-truck"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+            </svg>
+            </article>
+           <select class="form-control form-control-sm col-10">
+              <option>Despacho a Domicilio</option>
+              <option>Retiro en Tienda</option>
+            </select>
+          </article>
+
+          <article class="row mt-4">
+            <article>
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="24" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+              </svg>
+            </article>
+            
+            <select class="form-control form-control-sm col-10">
+              <option>Tarjeta de Debito</option>
+              <option>Tarjeta de Credito</option>
+              <option>Transferencia Bancaria</option>
+              <option>Pay Pal</option>
+            </select>
+
+            <img class="mt-3" src="img/medios_pago.png" alt="">
+           
+          </article>
+
+        </div>
+      </div>
+      <!-- ----------------------------------------------- -->
+
+      <!-- ------------------------Descripcion----------------------- -->
+
+      <article>
+        <h2 class="mt-3 mb-4">Descripción</h2>
+        <h3 class="mt-3">Caracteristicas:</h3>
+        <p class="mt-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+          </svg> Dos pastillas Stratocaster de bobina simple V-Mod II <br><br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+          </svg> Pastilla Humbucking Bridge DoubleTap ™<br><br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+          </svg> Trémolo de 2 puntos mejorado con bloque de acero laminado en frío<br><br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+          </svg> Perfil de mástil profundo en forma de "C" con bordes de diapasón redondeados<br><br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+          </svg> Cejilla de hueso; 22 trastes altos y estrechos para facilitar los bendings<br><br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+          </svg> El circuito Treble Bleed mantiene los agudos al reducir el volumen<br><br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+          </svg> Incluye estuche rígido Elite Molded
+        </p>
+        <h3 class="mt-3 mb-4">Historia:</h3>
+        <p>"La American Professional II Stratocaster® HSS se basa en más de sesenta años de innovación, inspiración y
+          evolución para satisfacer las demandas del músico de hoy en día. Nuestro popular mástil “Deep C" ahora tiene
+          bordes de diapasón redondeados, un acabado satinado "Super-Natural" y un talón de mástil recién esculpido para
+          una sensación sumamente cómoda y de fácil acceso al registro superior. Las nuevas pastillas de bobina simple
+          V-Mod II Stratocaster son más articuladas que nunca y conservan la calidez y el timbre de campana mientras que
+          la pastilla del puente DoubleTap ™ ofrece tonos humbucking contundentes y sonidos calibrados de bobina simple
+          con solo presionar un botón. Un trémolo mejorado de 2 puntos con un bloque de acero laminado en frío aumenta
+          el sustain, la claridad y el brillo de alta gama. La American Pro II Stratocaster HSS tiene el sonido y
+          sensación clásicos pero con amplias mejoras que se suman a las habituales para marcar un nuevo estándar para
+          instrumentos profesionales ".</p> <br>
+        <iframe  width="720" height="480" src="https://www.youtube.com/embed/Nvt6fdrrSEo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </article>
+
+      <!-- ------------------Tablas Ficha Tecnica----------------------------- -->
+
+
+      <table class="table table-striped mt-4">
+        <h3 class="mt-4 mb-1">Ficha Técnica:</h3>
+        <thead>
+          <!--           <tr>
+            <th scope="col">1</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+
+          </tr> -->
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Marca:</td>
+            <td>Fender</td>
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Modelo:</td>
+            <td>American Special</td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Color:</td>
+            <td>Amarillo</td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Escala:</td>
+            <td>24.75" </td>
+
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Clavijas:</td>
+            <td>Vintage Deluxe</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Trastes:</td>
+            <td>22, Jumbo mediano</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Cápsula:</td>
+            <td>2 x ProBucker (2-3)</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Número de cuerdas:</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Cuerdas:</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td>Número de cuerdas:</td>
+            <td>Fender, .010-.046</td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td>Material del cuerpo:</td>
+            <td>Caoba</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+  </section>
+
+
+  <!-- ---------------Ofertas-------------------- -->
+
+  <!-- ---------------------tarjetas-------------------- -->
+  <section class="container">
+    <div class="row col-12">
+      <h2 class="titulos text-center col-12 mt-4 mb-4">PRODUCTOS SELECCIONADOS</h2>
+
+      <div class="card col m-2" style="width: 18rem;">
+        <img src="img/c1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Guitarra Electrica</h3>
+          <p>Fender Vintara Stratocaster Gold</p>
+          <h3>$1.150.000</h3>
+          <h4>$1.390.000</h4>
+          <article class="valoracion">
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <!--
+                --><label for="radio1">★</label>
+                <!--
+                --><input id="radio2" type="radio" name="estrellas" value="4">
+                <!--
+                --><label for="radio2">★</label>
+                <!--
+                --><input id="radio3" type="radio" name="estrellas" value="3">
+                <!--
+                --><label for="radio3">★</label>
+                <!--
+                --><input id="radio4" type="radio" name="estrellas" value="2">
+                <!--
+                --><label for="radio4">★</label>
+                <!--
+                --><input id="radio5" type="radio" name="estrellas" value="1">
+                <!--
+                --><label for="radio5">★</label>
+              </p>
+            </form>
+            <article class="vermas">
+              <a href="detalle_producto.html"><button class="btn-vermas">Ver Más</button></a>
+
+            </article>
+        </div>
+      </div>
+
+      <div class="card col m-2" style="width: 18rem;">
+        <img src="img/c14.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Amplificador guitarra</h3>
+          <p>Boss GT100 <br> 100 watts</p>
+          <h3>$335.000</h3>
+          <h4>$419.900</h4>
+          <article class="valoracion">
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <!--
+                --><label for="radio1">★</label>
+                <!--
+                --><input id="radio2" type="radio" name="estrellas" value="4">
+                <!--
+                --><label for="radio2">★</label>
+                <!--
+                --><input id="radio3" type="radio" name="estrellas" value="3">
+                <!--
+                --><label for="radio3">★</label>
+                <!--
+                --><input id="radio4" type="radio" name="estrellas" value="2">
+                <!--
+                --><label for="radio4">★</label>
+                <!--
+                --><input id="radio5" type="radio" name="estrellas" value="1">
+                <!--
+                --><label for="radio5">★</label>
+              </p>
+            </form>
+            <article class="vermas">
+              <a href="detalle_producto.html"><button class="btn-vermas">Ver Más</button></a>
+            </article>
+
+          </article>
+        </div>
+      </div>
+
+      <div class="card col m-2" style="width: 18rem;">
+        <img src="img/c15.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Mutiefecto guitarra</h3>
+          <p>Line 6 <br>POD</p>
+          <h3>$526.000</h3>
+          <h4>$619.900</h4>
+          <article class="valoracion">
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <!--
+                --><label for="radio1">★</label>
+                <!--
+                --><input id="radio2" type="radio" name="estrellas" value="4">
+                <!--
+                --><label for="radio2">★</label>
+                <!--
+                --><input id="radio3" type="radio" name="estrellas" value="3">
+                <!--
+                --><label for="radio3">★</label>
+                <!--
+                --><input id="radio4" type="radio" name="estrellas" value="2">
+                <!--
+                --><label for="radio4">★</label>
+                <!--
+                --><input id="radio5" type="radio" name="estrellas" value="1">
+                <!--
+                --><label for="radio5">★</label>
+              </p>
+            </form>
+            <article class="vermas">
+              <a href="detalle_producto.html"><button class="btn-vermas">Ver Más</button></a>
+            </article>
+
+          </article>
+        </div>
+      </div>
+
+      <div class="card col m-2" style="width: 18rem;">
+        <img src="img/c16.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Pedal efecto de guitarra</h3>
+          <p>Boss DS1 <br> Distorsión</p>
+          <h3>$63.900</h3>
+          <h4>$84.990</h4>
+          <article class="valoracion">
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <!--
+                --><label for="radio1">★</label>
+                <!--
+                --><input id="radio2" type="radio" name="estrellas" value="4">
+                <!--
+                --><label for="radio2">★</label>
+                <!--
+                --><input id="radio3" type="radio" name="estrellas" value="3">
+                <!--
+                --><label for="radio3">★</label>
+                <!--
+                --><input id="radio4" type="radio" name="estrellas" value="2">
+                <!--
+                --><label for="radio4">★</label>
+                <!--
+                --><input id="radio5" type="radio" name="estrellas" value="1">
+                <!--
+                --><label for="radio5">★</label>
+              </p>
+            </form>
+            <article class="vermas">
+              <a href="detalle_producto.html"><button class="btn-vermas">Ver Más</button></a>
+
+            </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Footer -->
+
+  <footer>
+    <section class="pie row">
+      <article class="col-3">
+        <article class="info">
+          <h3>Atención al cliente</h3>
+          <p>Asistencia en compra</p>
+          <p>Garantía</p>
+          <p>Seguro full protección</p>
+          <p>Problemas con la entrega</p>
+          <p>Servicio técnico</p>
+        </article>
+      </article>
+      <article class="col-3">
+        <article class="info">
+          <h3>Nosotros</h3>
+          <p>Quienes somos</p>
+          <p>Contáctanos</p>
+          <p>Términos y condiciones</p>
+        </article>
+      </article>
+      <article class="col-3">
+        <article class="info">
+          <h3>Mi cuenta</h3>
+          <p>Iniciar sesion</p>
+          <p>Registrate</p>
+          <p>Pedidos</p>
+          <p>Mis datos</p>
+        </article>
+      </article>
+
+
+      <div class="row">
+        <article class="col">
+          <article class="boletin">
+            <h2 class="information">Boletín Informativo</h2>
+
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Ingresa tu e-mail" aria-label="Recipient's username"
+                aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="boton2" type="button" id="button-addon2">Enviar</button>
+              </div>
+            </div>
+
+          </article>
+          <article>
+            <ul class="lista col">
+              <li><a href=""> <img src="img/redes1.png" alt=""> </a></li>
+              <li><a href=""> <img src="img/redes2.png" alt=""> </a></li>
+              <li><a href=""> <img src="img/redes3.png" alt=""> </a></li>
+              <li><a href=""> <img src="img/redes4.png" alt=""> </a></li>
+            </ul>
+          </article>
+      </div>
+
+
+      </article>
+
+    </section>
+  </footer>
+
+  <!-- ------------------JS------------------------- -->
+
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

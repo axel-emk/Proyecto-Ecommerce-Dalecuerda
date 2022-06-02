@@ -1,0 +1,304 @@
+/* Tipografía */
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "RobotoCondensed-Bold";
+    src: url(../font/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RobotoCondensed-LightItalic";
+    src: url(../font/RobotoCondensed-LightItalic.ttf);
+}
+
+h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 45px;
+
+}
+
+h2{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+    color: #470000;
+}
+
+h3{
+  font-family: "RobotoCondensed-Bold";
+  font-size: 16px;
+  color: #470000;
+
+}
+
+h4{
+    font-family: "RobotoCondensed-LightItalic";
+    font-size: 10px;
+    text-decoration:line-through;
+
+}
+
+p{
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+}
+
+a{
+  font-family: "Roboto-Regular";
+
+
+}
+
+header a{
+  font-family: "Roboto-Bold";
+  color:white;
+  
+}
+
+header a:hover{
+  color: #DBD927;
+  text-decoration: none;
+}
+
+
+/* --------Header-------- */
+
+.logo{
+  margin: 20px 20px 20px 150px;
+  height: 68px;
+  width: 184px;
+ }
+ 
+.menudesktop{
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/madera.jpg);  
+  height: 123px;  
+  width: 100%;
+}
+
+.lista{
+  display: flex;
+  align-items: center; 
+  margin-right: 10%; 
+
+}
+
+.lista li{
+  font-family:"Roboto-Bold" ;
+  margin-right: 25px;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+
+}
+
+.hilo ol{
+  margin-top: 20px;
+  background-color: white;
+}
+
+.hilo li {
+  font-size: 18px;
+}
+
+.hilo li a{
+  font-size: 18px;
+  color: #470000;
+}
+
+
+/* -------------Banner------------- */
+
+.servicios{
+  width: 100%;
+  height: 100px;
+  background-color: #470000;
+}
+
+.barra{
+  background-color: #470000;
+  height: 600px;
+}
+
+.barra h3{
+  color: whitesmoke;
+}
+.barra a{
+  color: white;
+font-size: 20px;
+}
+
+.barra a:hover{
+  color: #DBD927;
+}
+
+.barra li{
+  font-size: 14px;
+  color: white;
+  border: 2;
+
+}
+
+
+/* ---------------------Valoracion Estrellas-------------------------------- */
+
+.valoracion {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px; 
+    margin: 15px 15px 15px 0; 
+    height: 50px; 
+   } 
+   #form p { 
+     text-align: center; 
+   } 
+   #form label { 
+     font-size: 20px; 
+   } 
+   input[type="radio"] { 
+     display: none; 
+   } 
+   label { 
+     color: grey; 
+   } 
+   .clasificacion { 
+     direction: rtl; 
+     unicode-bidi: bidi-override; 
+   } 
+   label:hover, 
+   label:hover ~ label { 
+     color: orange; 
+   } 
+   input[type="radio"]:checked ~ label { 
+     color: orange; 
+   }
+
+.vermas{
+       margin: 0 20px 20px;
+   }
+
+.btn-vermas{
+    background-color: #470000;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+
+
+}
+
+.btn-vermas:hover{
+    background-color: #470000;
+    color:#DBD927;
+}
+
+/* -------Nav Lateral---------- */
+
+
+
+
+/* Footer */
+footer{
+  width: 100%;
+}
+
+.pie {    
+  display: flex;
+  align-items: flex-start;
+  height: 300px;
+  width: 100%;
+  background-image: url(../img/madera.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.info{
+  margin-left: 20%;
+  margin-top: 50px;
+}
+
+.info h3{
+  color: white;
+  text-decoration: underline;
+  font-style: bold;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.info p{
+  color: white;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.infopie {
+  color: white;
+  text-decoration: underline;
+}
+
+.input {
+  color: rgb(182, 181, 181);
+  border-radius: 4px;
+  height: 33px;
+  width: 273px;
+  margin-bottom: 15px;
+}
+
+.information {
+  color: white;
+  
+}
+
+.logopie {
+  height: 55px;
+  width: 100px;
+
+
+}
+
+.boletin {
+  margin-top: 50px;
+}
+
+.rrsspie{
+  display: flex;
+  color: white;
+  align-items: stretch;
+  
+ 
+}
+.ppie {
+  color: white;
+}
+
+.boton2{
+  background-color: #ff0000;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  border-radius:0 5px 5px 0;
+  font-size: 15px;
+}
+
+.boton2:hover{
+  background-color: #470000;
+}
+
+.zoom{
+  width: 138px;
+}
+
+
+
+
