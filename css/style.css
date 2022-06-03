@@ -1,7 +1,20 @@
 :root {
+  --dark: #470000;
+  --primary: #0093FF;
   --mainFont: 'Roboto Condensed';
+
 }
 
 body {
   font-family: var(--mainFont);
 }
+
+.bg-dark { background-color: var(--dark) !important;}
+
+.menunav{
+  background-image: url(../img/madera.jpg);
+}
+
+
+/* -------------Banner------------- */
+
