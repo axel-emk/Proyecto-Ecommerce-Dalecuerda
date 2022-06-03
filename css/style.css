@@ -1,6 +1,6 @@
 :root {
   --dark: #470000;
-  --primary: #DBD927;;
+  --primary: #DBD927;
   --mainFont: 'Roboto Condensed';
 
 }
@@ -10,6 +10,7 @@ body {
 }
 
 .bg-dark { background-color: var(--dark) !important;}
+
 
 h1{
   font-size: 45px;
@@ -37,8 +38,13 @@ p{
   font-size: 16px;
 }
 
+a {
+  font-size: 18px;
+}
+
 .menunav{
   background-image: url(../img/madera.jpg);
+
 }
 
 /* ---------------------Valoracion Estrellas-------------------------------- */
