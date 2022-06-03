@@ -11,8 +11,87 @@ body {
 
 .bg-dark { background-color: var(--dark) !important;}
 
+h1{
+  font-size: 45px;
+
+}
+
+h2{
+  font-size: 24px;
+  color: #470000;
+}
+
+h3{
+font-size: 16px;
+color: #470000;
+
+}
+
+h4{
+  font-size: 10px;
+  text-decoration:line-through;
+
+}
+
+p{
+  font-size: 16px;
+}
+
 .menunav{
   background-image: url(../img/madera.jpg);
+}
+
+/* ---------------------Valoracion Estrellas-------------------------------- */
+
+.valoracion {
+  display: flex;
+  justify-content: flex-start;
+  width: 250px; 
+  margin: 15px 15px 15px 0; 
+  height: 50px; 
+ } 
+ #form p { 
+   text-align: center; 
+ } 
+ #form label { 
+   font-size: 20px; 
+ } 
+ input[type="radio"] { 
+   display: none; 
+ } 
+ label { 
+   color: grey; 
+ } 
+ .clasificacion { 
+   direction: rtl; 
+   unicode-bidi: bidi-override; 
+ } 
+ label:hover, 
+ label:hover ~ label { 
+   color: orange; 
+ } 
+ input[type="radio"]:checked ~ label { 
+   color: orange; 
+ }
+
+.vermas{
+     margin: 0 20px 20px;
+ }
+
+.btn-vermas{
+  background-color: #470000;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+
+
+}
+
+.btn-vermas:hover{
+  background-color: #470000;
+  color:#DBD927;
 }
 
 
