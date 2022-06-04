@@ -18,49 +18,65 @@
 <body>
   <!-- ---------Header --------->
 <header>
-      <nav class="navbar navbar-expand-lg navbar-dark menunav">
-        <div class="container d-flex">
-          <a class="flex-grow-1 p-3" href="./index.html"><img src="./img/logo_dc.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <button class="btn" type="submit"> <img src="./img/redes1.png" alt=""></button>
-              <button class="btn" type="submit"> <img src="./img/redes2.png" alt=""></button>
-              <button class="btn" type="submit"> <img src="./img/redes3.png" alt=""></button>
-              <button class="btn" type="submit"> <img src="./img/redes4.png" alt=""></button>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="./catalogo.html">PRODUCTOS</a>
+  <nav class="navbar navbar-expand-lg navbar-dark menunav">
+    <div class="container d-flex">
+      <a class="flex-grow-1 p-3" href="./index.html"><img src="./img/logo_dc.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <button class="btn" type="submit"> <img src="./img/redes1.png" alt=""></button>
+        <button class="btn" type="submit"> <img src="./img/redes2.png" alt=""></button>
+        <button class="btn" type="submit"> <img src="./img/redes3.png" alt=""></button>
+        <button class="btn" type="submit"> <img src="./img/redes4.png" alt=""></button>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./catalogo.html">PRODUCTOS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              SERVICIO TECNICO
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Mantención y Calibración</a></li>
+              <li><a class="dropdown-item" href="#">Reparación</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  SERVICIO TECNICO
-                </a>
-                <ul class="dropdown-menu bg-danger " aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Mantención y Calibración</a></li>
-                  <li><a class="dropdown-item" href="#">Reparación</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Restauración</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">OFERTAS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">CONTACTO</a>
-              </li>
+              <li><a class="dropdown-item" href="#">Restauración</a></li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn" type="submit"> <img src="./img/icono1.png" alt=""></button>
-              <button class="btn" type="submit"> <img src="./img/icono2.png" alt=""></button>
-              <button class="btn" type="submit"> <img src="./img/icono3.png" alt=""></button>
-            </form>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OFERTAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">CONTACTO</a>
+          </li>
+          <!-- dropdown Buscador -->
+          <div class="dropdown dropstart">
+            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="./img/icono1.png" alt="">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username"
+                  aria-label="Recipient's username" aria-describedby="button-addon2">
+
+              </div>
+            </ul>
           </div>
-        </div>
-      </nav>
+          <button class="btn" type="submit"> <img src="./img/icono2.png" alt=""></button>
+          <button class="btn" type="submit"> <img src="./img/icono3.png" alt=""></button>
+      </div>
+      </ul>
+
+  </nav>
 </header>
+
+
   <!-- --------------------- Banner------------------ -->
   <section class="container">
     <article class="row col-12">
