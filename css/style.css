@@ -1,6 +1,6 @@
 :root {
   --dark: #470000;
-  --primary: #DBD927;
+  --primary: #E6B850;
   --mainFont: 'Roboto Condensed', sans-serif;
 
 }
@@ -105,7 +105,7 @@ a {
 
 .btn-vermas:hover{
   background-color: #470000;
-  color:#DBD927;
+  color:#E6B850;
 }
 
 
